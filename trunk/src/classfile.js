@@ -104,7 +104,7 @@ JD.ClassFile.prototype.readConstantPool = function(stream, count){
 };
 
 JD.ClassFile.prototype.readInterfaces = function(stream, count){
-  var interfaces = [], tag;
+  var interfaces = [];
   while(count --){
     interfaces.push( new JD.ClassInfo(stream, JD.ConstantPoolTag.CLASS) );
   }
