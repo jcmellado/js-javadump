@@ -2,8 +2,6 @@
 
 ### How to use? ###
 
-Three steps are required:
-
 **1)** Retrieve your `.class` file from the web, as usual:
 
 ```
@@ -35,6 +33,6 @@ var stream = new JD.Stream(file);
 var classFile = new JD.ClassFile(stream);
 ```
 
-### What you get? ###
+### What do you get? ###
 
-One `JD.ClassFile` object having all the .class file components according current specification JSR-202.
+One `JD.ClassFile` object having all the .class file components according current JSR-202 specification.
